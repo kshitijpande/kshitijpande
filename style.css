@@ -85,17 +85,22 @@ h6 {
 /*Hero Area*/
 
 .bg-1 {
-	background-image: url(./assets/img/hero-bg.jpeg);
+	background-image: url(./assets/img/web-development-banner.png);
 	display: block;
 }
 
 .hero-bg {
-	height: 550px;
+	height: 497px;
 	background-size: cover;
 	background-position: center;
 	color: #fff;
 }
-
+.banner-plain {
+	background: #d9fff9;
+	width: 100%
+	padding: 200px;
+	height: 500px;
+}
 .hero-area-wrapper {
 	width: 100%;
 	text-align: center;
@@ -277,6 +282,7 @@ img.logo-bg {
 
 .target-area {
 	padding: 80px 0;
+	background: #f2f2f1;
 }
 
 /*About*/
@@ -319,7 +325,9 @@ img.logo-bg {
 }
 
 .about-title {
-	padding-top: 50px;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .about-img-mobile{
